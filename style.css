@@ -1,0 +1,45 @@
+/*This static style has been built based on screen specifications of 3440 x 1440 pixels*/
+
+body {
+  background-color: black; /* Sets background color of the webpage to black */
+}
+
+.mrrobot img {
+  height: 1000px; /* Sets img height to 1000 pixels */
+  width: 1500px; /* Sets img width to 1500 pixels */
+  border: 5px solid; /* Sets img border to 5 pixels and is set to a solid line*/
+  border-color: white; /* Sets img border color to white */
+  border-radius: 20px; /* Ensures smooth rounded corners*/
+  margin-top: 50px; /* Takes the image off top of the screen 50 pixels*/
+}
+
+.mrrobot {
+  display: flex; /*Enables flexbox layout for flexibility*/
+  justify-content: center; /*Justifies the image at the center of the screen horizontally*/
+  align-items: center; /*Aligns the image at the center of the screen vertically*/
+}
+
+.quote {
+  color: white; /*Sets text color to white*/
+  display: flex; /*Enables flexbox layout*/
+  flex-direction: column; /*Enables to put in p element as a separate instance under quote (Stacks the elements)*/
+  justify-content: center; /*Justifies content of quote at the center of the screen vertically*/
+  align-items: center; /*Aligns content of quote at the center of the screen horizontally*/
+  font-family: "Libre Baskerville", sans-serif; /*Font family set to Libre Baskerville and if it does not load, turns back to sans serif instead*/
+  font-size: 30px; /* Sets font to 30 pixels */
+}
+
+.quote p {
+  margin-top: 2px; /* Sets margin apart from quote off top 2 pixels */
+  font-family: "Libre Baskerville", sans-serif; /* Same font family selected to represent p element, just in case.  */
+  font-size: 30px; /* Set size to 30 pixels for font family*/
+}
+
+.quote p a {
+  color: inherit; /*anchor element inherits color from p element*/
+  text-decoration: none; /*Removes underline from the link*/
+}
+
+.quote p a:hover {
+  color: red; /*Link turns red on hover*/
+}
